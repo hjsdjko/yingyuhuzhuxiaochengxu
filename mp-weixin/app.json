@@ -1,0 +1,96 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/userinfo",
+    "pages/chat/list",
+    "pages/chat/add-or-update",
+    "pages/chat/detail",
+    "pages/forum/forum-index",
+    "pages/forum/forum-detail",
+    "pages/forum/forum-my",
+    "pages/forum/forum-add-or-update",
+    "pages/jiarudexiaozu/list",
+    "pages/jiarudexiaozu/add-or-update",
+    "pages/jiarudexiaozu/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/xingquxiaozu/list",
+    "pages/xingquxiaozu/add-or-update",
+    "pages/xingquxiaozu/detail",
+    "pages/xingquxiaozuLiuyan/list",
+    "pages/xingquxiaozuLiuyan/add-or-update",
+    "pages/xingquxiaozuLiuyan/detail",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/zhutizixun/list",
+    "pages/zhutizixun/add-or-update",
+    "pages/zhutizixun/detail",
+    "pages/zhutizixunCollection/list",
+    "pages/zhutizixunCollection/add-or-update",
+    "pages/zhutizixunCollection/detail",
+    "pages/zhutizixunLiuyan/list",
+    "pages/zhutizixunLiuyan/add-or-update",
+    "pages/zhutizixunLiuyan/detail",
+    "pages/exampaper/list",
+    "pages/exampaper/exam",
+    "pages/examrecord/list",
+    "pages/examrecord/detail",
+    "pages/examrewrongquestion/list",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "英语互助小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#bcceda",
+    "borderStyle": "black",
+    "backgroundColor": "#96b8c4",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/xingquxiaozu/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "兴趣小组"
+      },
+      {
+        "pagePath": "pages/zhutizixun/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "主题资讯"
+      },
+      {
+        "pagePath": "pages/forum/forum-index",
+        "iconPath": "static/tabs/order.png",
+        "selectedIconPath": "static/tabs/order1.png",
+        "text": "学习讨论"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
